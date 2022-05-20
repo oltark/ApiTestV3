@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="Cucumber" />
+    <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="Cucumber">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Specs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/json/json.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Hooks/WebHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/BugReportElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/LoginElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseElements/MainPageElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/BugReportPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/MainPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/test.feature" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,71 +51,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.RunnerTest">
-    <configuration name="AutoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.testApi.successUserRegTest">
+    <configuration name="testApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoTest" />
+      <option name="MAIN_CLASS_NAME" value="testApi" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoTest" />
-      <option name="METHOD_NAME" value="Test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutoTest.Test3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testApi.CharacterData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoTest" />
-      <option name="METHOD_NAME" value="Test3" />
+      <option name="MAIN_CLASS_NAME" value="testApi" />
+      <option name="METHOD_NAME" value="CharacterData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoTest" />
-      <option name="METHOD_NAME" value="Test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testApi.getCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunnerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="testApi" />
+      <option name="METHOD_NAME" value="getCharacter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testApi.getCharacterData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testApi" />
+      <option name="METHOD_NAME" value="getCharacterData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testApi.successUserRegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testApi" />
+      <option name="METHOD_NAME" value="successUserRegTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunnerTest" />
-        <item itemvalue="JUnit.AutoTest (1)" />
-        <item itemvalue="JUnit.AutoTest.Test3 (1)" />
-        <item itemvalue="JUnit.AutoTest.Test3" />
-        <item itemvalue="JUnit.AutoTest.Test2" />
+        <item itemvalue="JUnit.testApi.successUserRegTest" />
+        <item itemvalue="JUnit.testApi" />
+        <item itemvalue="JUnit.testApi.getCharacterData" />
+        <item itemvalue="JUnit.testApi.CharacterData" />
+        <item itemvalue="JUnit.testApi.getCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652304947631</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cucumber">
+      <created>1652305202790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652305202790</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +194,31 @@
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+        <entry key="bf151561-eba9-4d3f-8dfb-220747042b9c">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -186,5 +234,16 @@
     <MESSAGE value="v1.5 final" />
     <MESSAGE value="Cucumber" />
     <option name="LAST_COMMIT_MESSAGE" value="Cucumber" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testApi.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
